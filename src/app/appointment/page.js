@@ -1,15 +1,12 @@
-import React from 'react'
-import Appointments from './HospitalAppoinment/Appointments'
+import React from "react";
+import Appointments from "./HospitalAppoinment/Appointments";
 
 const page = () => {
   return (
     <>
-     <Appointments />  
-
-     
-      
+      <Appointments />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;
