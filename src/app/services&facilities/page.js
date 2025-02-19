@@ -51,7 +51,7 @@ const PageContent = () => {
 const Page = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <PageContent />
+      <PageContent />       
     </Suspense>
   );
 };
