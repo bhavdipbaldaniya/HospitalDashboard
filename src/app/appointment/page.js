@@ -4,7 +4,10 @@ import Appointments from './HospitalAppoinment/Appointments'
 const page = () => {
   return (
     <>
-     <Appointments />   
+     <Appointments />  
+
+     
+      
     </>
   )
 }
