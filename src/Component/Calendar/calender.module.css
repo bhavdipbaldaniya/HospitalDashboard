@@ -1,0 +1,213 @@
+.mainDivForcalander {
+  border-radius: var(--radius);
+  border: 1px solid var(--border_colours_light_border);
+  background-color: var(--font_colours_white);
+}
+.main_div_cal_month_hading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border_colours_light_border);
+  background-color: var(--surface_colours_light_gray_surf);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.main_div_hading_patiotant {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 27.24px !important;
+  min-width: 160px;
+  color: var(--font_colours_secondary) !important;
+}
+.main_div_Create_Event_button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.main_div_Create_Event {
+  color: var(--primar_colours_dark_green) !important;
+}
+
+.main_div_Pri_next {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.calenderBtn {
+  border: none;
+  padding: 10px;
+}
+
+.main_div_date_option {
+  display: flex;
+  max-height: 315px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Date_option_div {
+  width: 60%;
+  border-right: 1px solid var(--border_colours_light_border);
+  margin-right: 25px;
+  padding-right: 25px;
+}
+
+.main_div_open_event {
+  width: 40%;
+}
+.selectedEvents {
+  overflow: auto;
+  max-height: 274px;
+}
+
+.selectedEvents::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+  margin-left: 5px;
+}
+
+.selectedEvents::-webkit-scrollbar-thumb {
+  background-color: var(--border_colours_light_border);
+  border-radius: 10px;
+}
+
+.selectedEvents::-webkit-scrollbar-track {
+  border-radius: var(--radius);
+}
+
+.main_div_events_selected {
+  margin-bottom: 24px;
+}
+.Time_date_div {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.07px;
+  color: #9747ff;
+  margin-bottom: 8px;
+}
+.main_div_Event_title {
+  color: var(--font_colours_secondary) !important;
+}
+
+.emptyCell {
+  background: none;
+  cursor: default;
+  pointer-events: none;
+}
+
+.calendarContainer {
+  max-width: 500px;
+  min-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendarDays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendarCell {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+}
+
+.calendarCellNew:hover {
+  color: #a27ceb;
+  cursor: pointer;
+}
+
+.currentDay {
+  background: #51c4cf7d; /* Light purple */
+}
+
+.legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.eventDot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  bottom: 3px;
+  background: #9747ff;
+}
+
+.eventDotEvent {
+  background-color: #9747ff;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #a27ceb;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none;
+  white-space: nowrap;
+}
+
+.calendarCell:hover .tooltip {
+  display: block;
+}
+
+.tooltip ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip li {
+  padding: 2px 0;
+}
+
+.calenderList {
+  font-size: 12px;
+}

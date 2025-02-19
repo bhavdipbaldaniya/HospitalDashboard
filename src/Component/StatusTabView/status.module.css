@@ -1,0 +1,31 @@
+.mainDivForButtoneSubTitle {
+  width: 100%;
+  background-color: #ffffffa6;
+  border-bottom: 1px solid var(--border_colours_light_border);
+  padding: 0px 34px;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.BackHadiengText {
+  border-bottom: 3px solid var(--font_colours_accent);
+  cursor: pointer;
+  padding: 13px 0px 10px 0px;
+}
+.BackHadiengTextInactiv {
+  cursor: pointer;
+  padding: 13px 0px 13px 0px;
+}
+.Back_Button {
+  cursor: pointer;
+}
+.main_div_back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 13px 0px 13px 0px;
+}

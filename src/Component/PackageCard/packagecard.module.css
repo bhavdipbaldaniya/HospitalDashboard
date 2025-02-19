@@ -1,0 +1,177 @@
+.div_for_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-width: 330px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #d1d5d8;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  object-fit: cover;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 15px 22px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #667085;
+}
+
+.price {
+  padding: 16px 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6b7280;
+}
+
+.newPrice {
+  color: #003b3e;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.sessions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sessionsnumber {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6b7280;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #003b3e;
+}
+
+.doctor {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.doctortitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6b7280;
+}
+
+.doctorName {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #003b3e;
+}
+
+.styles_for_manage_icon {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4b5563;
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+}
+
+.manageSection {
+  border-top: 1px solid #d1d5d8ed;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Main_div_for_package_page {
+  display: flex;
+}
+
+@media (max-width: 1700px) {
+  .div_for_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .div_for_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 776px) {
+  .div_for_cards {
+    display: flex;
+  }
+
+  .card {
+    min-width: 100%;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .oldPrice,
+  .sessionsnumber,
+  .number,
+  .doctortitle,
+  .doctorName {
+    font-size: 14px;
+  }
+
+  .newPrice {
+    font-size: 16px;
+  }
+}

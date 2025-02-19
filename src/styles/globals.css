@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: "Noto Sans";
+  /* direction: rtl; */
+}
+
+:root {
+  --font_colours_primary_colour: #111827;
+  --font_colours_accent: #01dc82;
+  --font_colours_secondary: #4b5563;
+  --font_colours_muted: #6b7280;
+  --font_colours_white: #ffffff;
+  --primar_colours_bright_green: #01dc82;
+  --primar_colours_dark_green: #003b3e;
+  --primar_colours_blak: #111827;
+  --accent_colour_blue: #39a0ed;
+  --neutral_colours_white: #f9fafb;
+  --neutral_colours_gray: #e5e7eb;
+  --surface_colours_light_gray_surf: #f3f4f6;
+  --surface_colours_dark_surfaces: #1f2937;
+  --border_colours_light_border: #d1d5d8;
+  --border_colours_dark_border: #4b5563;
+  --alerts_success_text: #237a57;
+  --alerts_success_bg: #dff7e1;
+  --alerts_error_text: #a0293e;
+  --alerts_error_bg: #fde7e9;
+  --alerts_warning_text: #a0741e;
+  --alerts_warning_bg: #fff7e1;
+  --alerts_info_text: #205d94;
+  --alerts_info_bg: #eaf5ff;
+  --department_emergency: #d32f2f;
+  --department_surgical: #0288d1;
+  --department_maternity: #e91e63;
+  --department_radiology: #424242;
+  --department_pediatrics: #4527a0;
+  --department_general: #00acc1;
+  --chip_scheduled_bg_color: #e8f5e9;
+  --chip_scheduled_text: #4caf50;
+  --chip_rescheduled_bg_color: #fff3e0;
+  --chip_rescheduled_text: #ff9800;
+  --chip_completed_bg_color: #e3f2fd;
+  --chip_completed_text: #2196f3;
+  --chip_cancelled_bg_color: #ffebee;
+  --chip_cancelled_text: #f44336;
+  --hover_btn: #003b3eba;
+  --radio_btn: #17ae7d;
+  --radius: 8px;
+}
+
+:disabled {
+  cursor: not-allowed;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.Heading {
+  font-family: "Noto Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.69px;
+  color: var(--font_colours_secondary);
+  align-items: center;
+}
+.SubHeading {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: var(--font_colours_muted);
+}
+.Lable {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.79px;
+  color: var(--font_colours_primary_colour);
+}
+.MainTitleHeading {
+  font-family: "Noto Sans";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43.58px;
+  color: var(--font_colours_primary_colour);
+}
+.Medium {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.79px;
+  color: var(--primar_colours_dark_green);
+}
+.Regular {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: var(--font_colours_muted);
+}
+.Small {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.07px;
+  color: var(--font_colours_muted);
+}
+.Large {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.52px;
+  color: #101828;
+}
+.Caption {
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: #767676;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--surface_colours_light_gray_surf)
+    inset !important;
+  box-shadow: 0 0 0px 1000px var(--surface_colours_light_gray_surf) inset !important;
+  -webkit-text-fill-color: black !important;
+  caret-color: black;
+}
+
+input {
+  flex: 1;
+  border: none;
+  background-color: var(--surface_colours_light_gray_surf) !important;
+  font-size: 14px;
+  outline: none;
+  padding: 12px 0;
+  width: 100%;
+  max-height: 40px;
+}
+
+input:disabled {
+  background: rgba(245, 245, 245, 1);
+  color: var(--font_colours_muted);
+}
+
+input::placeholder {
+  color: var(--font_colours_muted);
+}
+
+input:focus,
+input:focus-visible {
+  background: var(--surface_colours_light_gray_surf);
+}
+
+.noSpinner::-webkit-outer-spin-button,
+.noSpinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+.noSpinner {
+  -moz-appearance: textfield;
+}
+
+.ErrorText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--alerts_error_text);
+  margin-bottom: -5px !important;
+}

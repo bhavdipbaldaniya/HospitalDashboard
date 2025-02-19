@@ -1,0 +1,35 @@
+.inputContainer {
+  display: flex;
+  border: 1px solid var(--border_colours_light_border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.countryDropdown {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: var(--neutral_colours_white);
+}
+
+.flagIcon {
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.selectDropdown select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mobileInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}

@@ -1,0 +1,384 @@
+.main_div_for_hospital_count_cart {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.main_div_hospital_cart {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border_colours_light_border);
+  min-width: 247px;
+}
+.main_div_hospital_hading_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border_colours_light_border);
+}
+.main_div_content {
+  background-color: var(--font_colours_white);
+  border-radius: 0px 0px 8px 8px;
+  padding: 19px 22px;
+}
+.main_div_hading_patiotant {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 27.24px !important;
+  color: var(--font_colours_secondary) !important;
+}
+.main_div_profit_up {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 11px;
+}
+.main_div_profitup {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.07px;
+  color: var(--alerts_success_text);
+  background-color: var(--alerts_success_bg);
+  padding: 5px 10px;
+  border-radius: 55px;
+  width: fit-content;
+}
+.main_div_profitdwon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.07px;
+  color: var(--alerts_error_text);
+  background-color: var(--alerts_error_bg);
+  padding: 5px 10px;
+  border-radius: 55px;
+  width: fit-content;
+}
+.main_div_description {
+  color: var(--alerts_warning_text) !important;
+}
+.Data_table_contener {
+  width: 60%;
+  border: 1px solid var(--border_colours_light_border);
+  border-radius: var(--radius);
+  background-color: var(--font_colours_white);
+}
+.Data_table_contener_Patients {
+  width: 100%;
+  border: 1px solid var(--border_colours_light_border);
+  border-radius: var(--radius);
+  background-color: var(--font_colours_white);
+  max-height: 417px;
+}
+.Data_table_contener_ravanu {
+  width: 100%;
+  border: 1px solid var(--border_colours_light_border);
+  border-radius: var(--radius);
+  max-height: 417px;
+  background-color: var(--font_colours_white);
+}
+.main_div_hading_content_table {
+  width: 100%;
+  padding: 14px 20px;
+  align-items: center;
+  border-bottom: 1px solid var(--border_colours_light_border);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--surface_colours_light_gray_surf);
+  border-radius: 8px 8px 0px 0px;
+}
+.main_div_data_table_data {
+  /* padding: 20px; */
+  padding-bottom: 20px;
+  min-height: 322px; /* remove data  */
+}
+.main_div_data_Graph_data {
+  padding: 20px 0px;
+  min-height: 322px; /* remove data  */
+}
+.main_div_for_Calander_table {
+  display: flex;
+  width: 100%;
+  gap: 34px;
+  margin-top: 35px;
+}
+.main_div_for_Calander_ravanu {
+  display: flex;
+  min-width: 365px;
+  gap: 34px;
+  /* margin-top: 35px; */
+  min-height: 417px;
+}
+.main_div_for_Calander_table_Patients {
+  display: flex;
+  width: 100%;
+  max-width: 761px;
+  gap: 34px;
+  margin-top: 35px;
+}
+.main_div_calander {
+  width: 40%;
+}
+.main_div_count {
+  font-family: "Noto Sans";
+  width: 33;
+  height: 21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--font_colours_primary_colour);
+  background-color: var(--radio_btn);
+}
+
+.main_div_data_table_content {
+  display: flex;
+  gap: 6px;
+  text-align: center;
+  height: fit-content;
+  align-items: center;
+}
+.main_div_Create_Event {
+  color: var(--primar_colours_dark_green) !important;
+}
+.main_div_view_button {
+  display: flex;
+  gap: 6px;
+  padding: 6px 8px;
+  align-items: center;
+  cursor: pointer;
+}
+.main_div_dropdwon {
+  padding: 4px 11px;
+  border-radius: 46px;
+  background: var(--font_colours_white);
+  border: 0.95px solid var(--border_colours_light_border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: " Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.07px;
+}
+.main_div_Button_drop {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+/* CustomTooltip.module.css */
+.tooltipContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.tooltipBox {
+  background-color: var(--font_colours_primary_colour);
+  color: var(--font_colours_white);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  white-space: nowrap;
+}
+.tooltipBox_ravenue {
+  background-color: var(--alerts_success_bg);
+  color: var(--font_colours_secondary);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tooltipArrow {
+  width: 10px;
+  height: 10px;
+  background-color: var(--font_colours_primary_colour);
+  transform: rotate(45deg);
+  margin-top: -5px;
+}
+.tooltipArrow_revenue {
+  width: 10px;
+  height: 10px;
+  background-color: var(--alerts_success_bg);
+  transform: rotate(45deg);
+  margin-top: -5px;
+}
+.main_div_graph_manages {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.main_div_tharty_parsant {
+  color: #2e2e30 !important;
+}
+.main_div_for_ravanyou_manage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  padding-right: 30px;
+}
+.main_div_data_table_data_Revenue {
+  padding-top: 20px;
+  padding-right: 20px;
+  /* min-height: 322px; */
+}
+
+.main_div_data_table_data_activity {
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 339px;
+}
+
+.main_div_data_table_data_activity::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+  margin-left: 5px;
+}
+
+.main_div_data_table_data_activity::-webkit-scrollbar-thumb {
+  background-color: var(--border_colours_light_border);
+  border-radius: 10px;
+}
+
+.main_div_data_table_data_activity::-webkit-scrollbar-track {
+  border-radius: var(--radius);
+}
+.main_div_data_contener {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.main_div_Activity_img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--alerts_error_bg);
+}
+.main_dic_name_caption {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: var(--font_colours_muted) !important;
+}
+.main_dic_name_caption_Rejected {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: var(--alerts_error_text) !important;
+}
+.main_div_data_caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.main_div_for_description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main_div_today_text {
+  color: var(--radio_btn);
+  border-radius: 66px;
+  padding: 4px 8px;
+  background-color: var(--neutral_colours_white);
+}
+.main_div_tab_view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 49px;
+  width: 209px;
+  padding: 4px 8px;
+  background: var(--surface_colours_light_gray_surf);
+  border: 1px solid var(--border_colours_light_border);
+}
+.main_div_for_video {
+  color: var(--font_colours_primary_colour);
+  padding: 2px 16px;
+  border-radius: 49px;
+  background-color: var(--font_colours_white);
+  cursor: pointer;
+  border: 1px solid #d5d9db;
+}
+.main_div_for_Walk {
+  cursor: pointer;
+}
+
+/* @media (max-width: 1450px) {
+  .main_div_for_hospital_count_cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} */
+@media (max-width: 1200px) {
+  .main_div_for_hospital_count_cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main_div_for_Calander_table {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .Data_table_contener {
+    width: 100%;
+  }
+  .main_div_calander {
+    width: 100%;
+  }
+  .main_div_graph_manages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+@media (max-width: 992px) {
+  .main_div_for_hospital_count_cart {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .main_div_graph_manages {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .main_div_for_hospital_count_cart {
+    grid-template-columns: 1fr;
+  }
+}

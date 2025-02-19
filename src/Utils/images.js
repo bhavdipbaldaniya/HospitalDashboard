@@ -1,0 +1,25 @@
+import Grid4 from "../Assets/images/Grid4.webp";
+import walletbg from "../Assets/images/walltbg.png";
+import healthlogo from "../Assets/images/healthlogo.png";
+import healthlogo1 from "../Assets/images/healthlogo1.png";
+import doctorimages from "../Assets/images/doctorimage.png";
+import Hospitallogo from "../Assets/images/HOSPITAL_LOGO.png";
+import Mzadlogo from "../Assets/images/MZAD_LOGO.png";
+import NoRecord from "../Assets/images/image 2.webp";
+import pdf from "../Assets/images/pdf.png";
+import HospitalProfile from "../Assets/images/hospitalprofile.png";
+import hospitalicon from "../Assets/images/hospitalimg.png";
+import doctoreiconimd from "../Assets/images/doctoricnimg.png";
+
+export { Grid4 };
+export { walletbg };
+export { healthlogo };
+export { healthlogo1 };
+export { Mzadlogo };
+export { Hospitallogo };
+export { doctorimages };
+export { NoRecord };
+export { pdf };
+export { HospitalProfile };
+export { doctoreiconimd };
+export { hospitalicon };

@@ -1,0 +1,90 @@
+.input {
+    width: 100%;
+    height: 100%;
+    /* Adjust based on your design */
+    resize: none;
+    /* Prevent resizing if not needed */
+    padding: 12px;
+    /* Adds spacing inside the textarea */
+    text-align: start;
+    vertical-align: top;
+    border: 0px solid var(--border_colours_light_border);
+    border-left: 0;
+    border-right: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background: var(--surface_colours_light_gray_surf);
+    font-family: inherit;
+    font-size: 14px;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: var(--radius);
+    background: var(--surface_colours_light_gray_surf);
+    border: 1.33px solid var(--border_colours_light_border);
+    padding: 0 16px;
+    width: 100%;
+    min-height: 48px;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    color: var(--font_colours_muted);
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+
+.fileUpload {
+    display: flex;
+    align-items: center;
+    background: #f5f6f8;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+
+.fileDisplay {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.uploadfileName {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+}
+
+.fileIcon {
+    font-size: 18px;
+}
+
+.uploadIcon {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiddenInput {
+    display: none;
+}
+
+.input:focus-visible {
+    outline: none;
+}

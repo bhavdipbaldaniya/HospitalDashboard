@@ -1,0 +1,31 @@
+.Main_div_lable_value {
+  text-align: start;
+}
+.main_div_for_contener {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.button_main_div {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: var(--primar_colours_dark_green);
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--font_colours_white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.4s ease;
+}
+
+.button_main_div:hover {
+  cursor: pointer;
+  background-color: #003b3eba;
+  transition: all 0.4s ease;
+}

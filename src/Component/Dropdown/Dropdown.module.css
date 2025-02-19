@@ -1,0 +1,65 @@
+.SelectMain {
+  position: relative;
+  width: 100%;
+}
+
+.SelectSubMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: var(--surface_colours_light_gray_surf);
+  border: 1px solid var(--border_colours_light_border);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.Select {
+  flex-grow: 1;
+  text-align: left;
+  font-size: 14px;
+  color: var(--font_colours_muted);
+}
+
+.selectedText {
+  font-weight: 500;
+}
+
+.OpenSelectMain {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--font_colours_white);
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999999;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.MainForOptionSelected {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.MainForOptionSelected:hover {
+  background: #f0f0f0;
+}
+
+.SelectedDropdownOption {
+  background: #fff8e0;
+  font-weight: bold;
+}
+
+.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

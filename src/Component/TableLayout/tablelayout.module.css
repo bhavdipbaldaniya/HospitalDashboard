@@ -1,0 +1,110 @@
+.TableLayout {
+  /* padding: 20px; */
+}
+.main_div_table_layout {
+  width: 100%;
+  /* padding: 20px; */
+  padding-bottom: 20px;
+  background-color: var(--font_colours_white);
+  border-radius: var(--radius);
+}
+.mainDivForAllHadings {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 2px solid #eaecf0;
+}
+.main_div_contener {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.Description_div {
+  margin-top: 5px;
+}
+.main_div_delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  cursor: pointer;
+  max-height: 40px;
+  padding: 10px 16px;
+  transition: all 0.4s ease;
+}
+.main_div_delete:not(:disabled):hover {
+  background-color: #003b3e17;
+  border-radius: var(--radius);
+  transition: all 0.4s ease;
+}
+
+.main_div_Export {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  cursor: pointer;
+  max-height: 40px;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  border: 1px solid #d0d5dd;
+  background-color: var(--font_colours_white);
+  transition: all 0.4s ease;
+}
+.main_div_Export:not(:disabled):hover {
+  transition: all 0.4s ease;
+  background-color: #003b3e17;
+}
+
+.button_main_div {
+  padding: 10px 16px;
+  min-width: 173px;
+  background-color: var(--primar_colours_dark_green);
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--font_colours_white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: var(--radius);
+  max-height: 40px;
+  transition: all 0.4s ease;
+  justify-content: center;
+  width: 100%;
+}
+
+.button_main_div:not(:disabled):hover {
+  cursor: pointer;
+  background-color: #003b3eba;
+  transition: all 0.4s ease;
+}
+
+/* @media (max-width: 1450px) {
+} */
+@media (max-width: 1200px) {
+  .mainDivForAllHadings {
+    display: block;
+  }
+  .main_div_contener {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .main_div_contener {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main_div_contener {
+    grid-template-columns: 1fr;
+  }
+}

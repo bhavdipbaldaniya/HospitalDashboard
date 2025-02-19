@@ -1,0 +1,29 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 77px;
+  background: var(--surface_colours_light_gray_surf);
+  min-width: 300px;
+  padding: 0 16px;
+  width: 100%;
+  max-height: 40px;
+  position: relative;
+}
+
+.icon {
+  color: var(--font_colours_muted);
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.Search_Input {
+  margin: 1px !important;
+}
+
+@media (max-width: 576px) {
+  .inputContainer {
+    min-width: 0px;
+  }
+}

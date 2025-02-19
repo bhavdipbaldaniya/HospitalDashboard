@@ -1,0 +1,6 @@
+.tabNames{
+    display: flex;
+    gap: 32px !important;
+    background-color: var(  --neutral_colours_white);
+}
+

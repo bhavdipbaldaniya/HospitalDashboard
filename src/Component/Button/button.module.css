@@ -1,0 +1,26 @@
+.main_div_button {
+  font-family: "Noto Sans";
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  color: var(--font_colours_white);
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  background-color: #003b3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+.main_div_button:not(:disabled):hover {
+  cursor: pointer;
+  background-color: #003b3eba;
+  transition: all 0.4s ease;
+}
+.main_div_button:disabled {
+  background-color: var(--neutral_colours_gray);
+  color: var(--font_colours_muted);
+  width: 100%;
+}
